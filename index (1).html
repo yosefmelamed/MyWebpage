@@ -1,0 +1,95 @@
+<!--doctype, html, head, body, meta, title, and css links and information-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <!--body-->
+  <body> 
+
+  <!--header; name and navigation/page-scroll-down-links--> 
+  <header>
+    <nav>
+    
+     <h1>Yosef Melamed</h1>
+      <a href="#aboutme">About</a> <a href="#contact">| Contact |</a> <a href="#seemore">See More</a> 
+   </nav>
+  </header>
+
+  <!--personal picture with div tag to center the picture plus the class id and alterantive text-->
+  <div>
+   <img class="mypicture"src="../images/mypicture.jpg" alt="my picture">
+  </div>   
+  <!--main start-- includes the intorduction ,an aboutme section, a line break,and a second aboutme paragraph, which includes relevant h2, h3, and paragraph tags, 1 unorganized list, 1 organized list, plus divisor and class tags to seperate the css, an anchor tag that links to the navigation text in the header, and a picture of Denver --> 
+   <main> 
+     
+           
+    <div class="group1">
+    <h2>Hi, My name is Yosef Melamed.</h2>
+    <h3>I live in Denver, Colorado</h3>    
+    <p>I am really excited to dive into the world of software development!
+    </p>
+    </div>
+
+    <hr>
+
+   <div class="group1" id="aboutme">
+    <h2>About Me</h2>
+    <h3>I think I would be good at software development becuase:</h3>
+    <ul>
+      <li> I am passionate about computers.</li>
+      <li> I am curious about how things work.</li>
+      <li>I enjoy learning new things.</li>
+      <li>I enjoy collaborating and working with others.</li>
+    </ul>
+   </div>
+
+   <hr>
+
+    <div class="see-more">
+      <article id=seemore></article>
+    <h3>Some other things that I enjoy:</h3>
+    <ol>
+      <li>spending time with my family.</li>
+      <li>camping.</li>
+      <li>Hiking and nature.</li>
+      <li>writing.</li>
+    </ol>
+    </div>
+ 
+    
+    
+    </main> 
+    
+    <!-- picture of Downtown-Denver Skyline-->
+    <img class="picture-of-denver" src="https://media.istockphoto.com/photos/denver-colorado-usa-downtown-skyline-drone-aerial-picture-id1292266863?b=1&k=20&m=1292266863&s=170667a&w=0&h=LN--HcrF9NVido1aJm6UVUAPJ6GBNRfUeQM24XBGBQs=" alt="Picture of DownTown Denver at twilight"> 
+
+  <!--footer; includes an h3 about reaching out to me, links to my linkedIn account and github account with accompanying logos, plus an anchor to the contact text in the navigation container; I split the links and logo into class so I could manipulate them better since the logos are links to online pictures-->  
+    <footer id="contact">
+      <h3>Feel free to reach out and see more about me at:</h3>
+      
+      <!--anchor tag with text and a link for my linkedIn account-->
+       <a class="linkdin"  href="https://www.linkedin.com/in/yosef-melamed-025a14227/" target=_blank>LinkedIn</a>
+      
+       <!--link to the linked in logo picture online -->
+        <img class="linkdinlogo" src="https://s.yimg.com/fz/api/res/1.2/YVck0ntH8cXwQqHyq5ASBA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/b686c4f9-b176-3be3-abd2-3ad3121782b1/t_500x300" alt="linkedin logo"> 
+    
+    <!-- anchor for my github account -->
+     <a class="github" href="https://github.com/yosefmelamed" target=_blank>GitHub</a>
+     
+     <!-- link to the github logo picture online -->
+     <img class="githublogo" src="https://tse1.mm.bing.net/th?id=OIP.EgSPriuEnAtlIWJV8R_E1QHaGs&pid=Api&rs=1&c=1&qlt=95&w=114&h=103" alt="Github logo">
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
